@@ -1,0 +1,252 @@
+															/* iPad Pro Versoin */
+@media screen and (max-width: 1150px) {
+.wrapper {
+	margin: 0 auto;
+	max-width: 1110px;
+	width: 93%;
+	}
+
+
+.about__right {
+	margin-left: 5%;
+	margin-top: 20px;
+}
+
+
+.title {
+	margin-bottom: 60px;
+}
+.title h2 {
+	margin-bottom: 40px;
+	font-size: 28px;
+}
+.title p {
+	line-height: 30px;
+	font-size: 22px;
+	font-weight: 500;
+}
+.about, .slider-bar, .price, .workMoments, .instaBlock, .feedBack, .order {
+	padding-top: 75px;
+}
+
+
+
+
+
+
+}
+@media screen and (max-width: 1020px) {
+.cards {
+	display: flex;
+	flex-direction: column;
+}
+.card {
+	margin: 0 auto;
+	margin-bottom: 90px;
+}
+.about, .slider-bar, .price, .workMoments, .instaBlock, .feedBack, .order {
+background-size: 100% auto;
+}
+
+
+}
+
+
+															/* iPad Versoin */
+@media screen and (max-width: 840px) {
+.opening__links {
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.social {
+	margin: 0 auto;
+}
+.phone {
+	margin-top: 50px;
+}
+
+
+.about__text {
+	flex-direction: column;
+}
+.about__left {
+	width: 100%;
+	height: 30vh;
+}
+.about__left img {
+	object-position: 50% 5%;
+}
+.about__right {
+	width: 100%;
+	margin-left: 0;
+}
+
+
+
+.firstLine {
+	padding-top: 42px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.firstLine_left {
+	margin: 0 auto;
+	margin-bottom: 60px;
+}
+.firstLine_left-text p {
+	display: none;
+}
+.firstLine_right {
+	margin: 0 auto;
+	width: 100%;
+	justify-content: space-around;
+}
+
+
+}
+@media screen and (max-width: 800px) {
+.slider .slick-slide {
+	filter: blur(0px);}}
+
+
+@media screen and (max-width: 767px) {							/* адаптив шрифта */
+.firstLine_right li a {
+	font-size: calc(14px + (4 + 4 * 0.7)  * ((100vw - 320px) / 1110));
+}
+.firstLine_right h5 {
+	font-size: calc(14px + (4 + 4 * 0.7)  * ((100vw - 320px) / 1110));
+}
+.blockForm input {
+	font-size: calc(14px + (6 + 6 * 0.7)  * ((100vw - 320px) / 1110));
+}
+.fbCard__text p {
+	font-size: calc(20px + (2 + 2 * 0.7)  * ((100vw - 320px) / 1110));
+}
+.authorName {
+	font-size: calc(22px + (3 + 3 * 0.7)  * ((100vw - 320px) / 1110));
+}
+.authorCity {
+	font-size: calc(15px + (3 + 3 * 0.7)  * ((100vw - 320px) / 1110));
+}
+.workMoments__text li {
+	font-size: calc(20px + (2 + 2 * 0.7)  * ((100vw - 320px) / 1110));
+}
+
+}
+
+
+
+@media screen and (max-width: 700px) {
+.opening__logo img {
+	width: 90%;
+}
+.social ul {
+	transform: scale(0.7);
+}
+.phone {
+	transform: scale(0.7);
+}
+
+.slider .slider__item  {
+	height: 500px;
+}
+.slider .slider__item img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.blockForm form {
+	width: calc(70vw + 50px);
+}
+.blockForm input {
+	width: 70vw;
+	height: calc(70vw * 0.1);
+}
+
+.workMoments__text {
+	flex-direction: column;
+}
+.workMoments__left, .workMoments__right {
+	width: 95%;
+	padding: 0 20px;
+}
+
+.fbCards {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.fbCard {
+	max-width: 680px;
+	margin-bottom: 50px;
+}
+.fbCard p {
+	padding: 0;
+}
+
+}
+															/* Mobile Versoin */
+@media screen and (max-width: 444px) {
+.excessText {
+		display: none;
+	}
+.title {
+	margin-bottom: 60px;
+}
+.title h2 {
+	font-size: 25px;
+}
+.title h2:after {
+	margin-top: 30px;
+}
+.title p {
+	line-height: 30px;
+	font-size: 20px;
+	font-weight: 500;
+}
+.about__social {
+	margin-top: -30px;
+}
+.about__social a {
+	font-size: 17px;
+}
+.about__right p {
+	font-size: 17px;
+}
+
+
+.fbCard__photo {
+	height: 100%;
+	width: 80px;
+}
+.fbCard__text {
+	margin-top: 15px;
+}
+
+
+.blockForm form {
+	width: calc(80vw + 30px);
+}
+.blockForm input {
+	width: 80vw;
+	height: 35px;
+	padding-left: 30px;
+	margin-bottom: 30px;
+}
+
+
+.firstLine_right h5:after {
+	height: 5px;
+	width: 70px;
+}
+.firstLine_left-logo img {
+	width: 300px;
+}
+
+
+
+}
+
+
